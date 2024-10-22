@@ -1,0 +1,44 @@
+/*cuerpo del documento*/
+body{
+    background-color: antiquewhite;
+}
+/*todos los titulos*/
+h1{
+    font-weight: bold;
+
+}
+/*todo el texto*/
+p{
+    text-align: justify;
+}
+
+/*formato del index superior*/
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+}
+/*links*/
+.topnav a {
+    float:right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /*poner raton encima del link*/
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/*pie de pagina*/
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+/*imagen logo*/
+  #logo{
+    width:60px;
+    height:60px;
+  }
