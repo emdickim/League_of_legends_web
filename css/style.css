@@ -1,6 +1,7 @@
 /*cuerpo del documento*/
 body{
-    background-color: antiquewhite;
+    background-color: rgb(23, 50, 55);
+    color: #f2f2f2; 
 }
 /*todos los titulos*/
 h1{
@@ -15,20 +16,19 @@ p{
 /*formato del index superior*/
 .topnav{
     overflow: hidden;
-    background-color: #333;
-}
+    background-color: #051826;}
 /*links*/
 .topnav a {
     float:right;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 23px 16px;
     text-decoration: none;
   }
   /*poner raton encima del link*/
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #cda93f;
     color: black;
 }
 
@@ -42,3 +42,25 @@ p{
     width:60px;
     height:60px;
   }
+/*imagenes mapas*/
+  .Mapa{
+    width:60%;
+    height: 20%;
+  }
+
+  .campeones{
+    max-width:300px;
+    max-height: 300px;
+    float: right; 
+    padding: 20px;
+
+  }
+
+  div.campeonesdiv{
+    background-color: #051826;
+    color: #f2f2f2;
+    width: auto;
+    margin: auto;
+    border: 3px solid #cda93f;
+  }  
+  
