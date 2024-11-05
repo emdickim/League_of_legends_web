@@ -20,23 +20,32 @@ p{
     position: sticky;
     width: 100%;
     right: 0; /*????????????????????????????????????????*/
+    text-decoration: none;
   }
-/*links*/
-.topnav a {
+/*almacen de links*/
+.topnav li {
     float:right;
     display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 23px 16px;
+    padding: 20px 16px;
     text-decoration: none;
+  }
+  /*links*/
+  .topnav a {
+    text-decoration: none;
+    color: white;
+      /*MAS O MENOS FUNCIONA*/
   }
   /*poner raton encima del link*/
   .topnav a:hover {
     background-color: #cda93f;
     color: black;
 }
-
+.topnav li:hover {
+  background-color: #cda93f;
+  color: black;
+}
 /*pie de pagina*/
+/*NO ESTÁ SIENDO UTILIZADO*/
 .footer {
     background-color: #f1f1f1;
     padding: 10px;
@@ -45,16 +54,23 @@ p{
   #logo{
     width:60px;
     height:60px;
+    float: left;
+    padding: 0px 16px;
   }
 /*imagenes mapas*/
   .Mapa{
     width:60%;
     height: 20%;
+    position: relative;
   }
 
   .campeones{
     max-width:300px;
     max-height: 300px;
+    position: relative;
+    float: right; 
+    top: 40px;
+    right: 40px;
     float: right; 
     padding: 20px;
 
@@ -67,4 +83,24 @@ p{
     margin: auto;
     border: 3px solid #cda93f;
   }  
+  /*GALERIA*/
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #cda93f;
+    float: left;
+    width: 180px;
+  }
   
+  div.gallery:hover {
+    border: 1px solid #63521d;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }

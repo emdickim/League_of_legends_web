@@ -9,13 +9,34 @@
 </head>
 <body>
     <div class="topnav">
-        <a href="Biografia.html">Biografia</a>
-        <a href="Galeria.html">Galeria</a>
-        <a href="Campeones.html">Campeones</a>
-        <a href="Mapas.html">Mapas</a>
-        <a href="ProPlay.html">profesionales</a>
-        <a href="Formulario.html">Formulario</a>
+        <ul>
+        <li href="Biografia.html">Biografia</li>
+        <li href="Galeria.html">Galeria</li>
+        <li href="Campeones.html">Campeones</li>
+        <li href="Mapas.html">Mapas</li>
+        <li href="ProPlay.html">profesionales</li>
+        <li href="Formulario.html">Formulario</li>
         <a href="Index.html"> <img src="img/favicon.ico" alt="Logo" id ="logo" > </a>      
+    </ul>
     </div>
+    <div> 
+        <h2>Registrate!</h2>
+        <form action="/action_page.php">
+            <label for="nombreCompleto">Gmail:</label><br>
+            <input type="text" id="gmail" name="gmail" value=""><br>
+            <label for="nombreCompleto">Nombre Completo:</label><br>
+            <input type="text" id="nombreCompleto" name="nombreCompleto" value=""><br>
+            <label for="nombreCompleto">Fecha de nacimiento</label><br>
+            <input type="text" id="FechaNacimiento" name="FechaNacimiento" value=""><br>
+            <label for="nombreCompleto">Nombre de usuario:</label><br>
+            <input type="text" id="nombreUsuario" name="nombreUsuario" value=""><br>
+            <label for="contraseña">Contraseña:</label><br>
+            <input type="password" id="contraseña" name="contraseña" value=""><br>
+            <label for="confirmarContraseña">Confirmar contraseña:</label><br>
+            <input type="password" id="nombreCompleto" name="nombreCompleto" value=""><br>
+            <label for="condiciones">Acepto los términos de servicio y he leído y acepto el aviso de privacidad.</label><br>
+            <input type="checkbox" id="condiciones" name="condiciones" value=""><br><br>
+            <input type="submit" value="Crear cuenta">
+          </form> 
 </body>
 </html>
