@@ -13,37 +13,33 @@ p{
     text-align: justify;
 }
 
-/*formato del index superior*/
+/*formato del index superior-----------------------------------------------------*/
 .topnav{
     overflow: hidden;
     background-color: #051826;
     position: sticky;
     width: 100%;
-    right: 0; /*????????????????????????????????????????*/
-    text-decoration: none;
+
   }
 /*almacen de links*/
 .topnav li {
-    float:right;
     display: block;
-    padding: 20px 16px;
-    text-decoration: none;
+    float:right;
   }
   /*links*/
   .topnav a {
     text-decoration: none;
     color: white;
+    padding: 30% 50px;
       /*MAS O MENOS FUNCIONA*/
   }
   /*poner raton encima del link*/
-  .topnav a:hover {
+  .topnavpages a:hover {
     background-color: #cda93f;
     color: black;
 }
-.topnav li:hover {
-  background-color: #cda93f;
-  color: black;
-}
+/*--------------------------------------------------------------------------------*/
+
 /*pie de pagina*/
 /*NO ESTÁ SIENDO UTILIZADO*/
 .footer {
@@ -55,13 +51,14 @@ p{
     width:60px;
     height:60px;
     float: left;
-    padding: 0px 16px;
   }
 /*imagenes mapas*/
   .Mapa{
-    width:60%;
-    height: 20%;
-    position: relative;
+    width:30%;
+    height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .campeones{
@@ -90,7 +87,7 @@ p{
     float: left;
     width: 180px;
   }
-  
+
   div.gallery:hover {
     border: 1px solid #63521d;
   }
@@ -103,4 +100,12 @@ p{
   div.desc {
     padding: 15px;
     text-align: center;
+  }
+  div.form{
+
+    border: 1px solid #cda93f;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
